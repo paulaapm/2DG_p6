@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p6_disseny_interpretat_html_&_css</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #ovalo-rosa{
+        z-index: 1;
+        shape-outside: ellipse(192px 50%);
+        clip-path: ellipse(50% 50%);
+        width: 192px;
+        height: 576px;
+        background-color: #E1B29E;
+        position: absolute;
+        top: 10vh;
+        left: 64px;
+    }
+    #cuadrado-amarillo{
+        z-index: 2;
+        width: 320px;
+        height: 320px;
+        background-color: #D0CE57;
+        position: absolute;
+        left: 320px;
+        top: 28vh;
+    }
+    #rectangulo-amarillo{
+        z-index: 3;
+        width: 384px;
+        height: 128px;
+        background-color: #D0CE57;
+        position: absolute;
+        right: 64px;
+        top: 7vh;
+    }
+    #linea-negra{
+        z-index: 5;
+        width: 2px;
+        height: 402px;
+        background-color: black;
+        right: 192px;
+        position: absolute;
+        top: 23vh;
+        }
+    #rectangulo-rosa{
+        z-index: 4;
+        width: 384px;
+        height: 128px;
+        background-color: #DC77B6;
+        position: absolute;
+        bottom: 7vh;
+        right: 64px;
+    }
+    </style>
+</head>
+<body>
+    <div id="ovalo-rosa"></div>
+    <div id="cuadrado-amarillo"></div>
+    <div id="rectangulo-amarillo"></div>
+    <div id="linea-negra"></div>
+    <div id="rectangulo-rosa"></div>
+</body>
+</html>
